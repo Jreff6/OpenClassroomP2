@@ -1,0 +1,165 @@
+@media screen and (max-width: 992px) {
+
+    body{
+        padding-left: 0px;
+    }
+
+
+    header{
+        width: 92%;
+        padding: 0 3% 0 3%;
+    }
+
+    .headernav{
+        padding-right: 0px;
+    }
+
+    .main_title {
+        width: 95%;
+    }
+
+    .main_title h1{
+        font-size: 24px;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+
+    .st_1 {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+
+    .search_form{
+        padding-left: 20px;
+    }
+
+    .filters{
+        width: 93%;
+        margin-left: 20px;
+    }
+
+    .filters_title{
+        margin-right: 0px;
+        margin-left: 0px;
+
+    }
+
+    .filters_list{
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .filters_list_item{
+        width: 22%;
+        margin-left: 3px;
+    }
+
+    .st_2{
+        margin-left: 20px;
+    }
+
+    .content_wrap {
+        display: block;
+    }
+
+    .group_cards {
+        width: 92%;
+        height: auto;
+        margin-bottom: 53px;
+        margin-left: 20px;
+    }
+
+    .card_container{
+        width: 28%;
+    }
+
+    .popular_title{
+        margin-top: 10px;
+    }
+
+    .pop_cards {
+        justify-content: space-evenly;
+        flex-direction: row;
+        height: 215%;
+        
+    }
+
+    .popular_items {
+        height: 278px;
+        width: 92%;
+        margin-bottom: 70px;
+        margin-left: 20px;
+    }
+
+
+    .popular_container {
+        width: 28%;
+        margin-left: 0;
+        min-width: 180px;
+        margin: 8px;
+    }
+
+    .pop_block img {
+        height: 200px;
+    }
+
+    .pop_title {
+        margin-top: 5px;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .pop_price {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+    .pop_rating{
+        font-size: 14px;
+    }
+    .activities{
+        width: 92%;
+        padding-left: 20px;
+    }
+    .act_block {
+        width: 150px;
+        height: 267px;
+        min-width: 170px;
+
+    }
+
+    .act_wrappers{
+        width: 96%;
+    }
+
+    .act_block img {
+        height: 75%;
+    }
+
+    .act_block figcaption {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 14px;
+
+    }
+
+    footer {
+        justify-content: space-around;
+        padding-right: 0px;
+        margin-top: 69px;
+        margin-left: 20px;
+        width: 92%;
+    }
+
+    .subt {
+        font-size: 18px;
+    }
+
+    footer li {
+        font-size: 16px;
+    }
+
+
+}
