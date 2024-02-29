@@ -5,11 +5,15 @@ body {
 
 body {
     padding: 0;
-    margin: 0px;
+    margin: auto;
     padding-left: 50px;
     max-width: 1400px;
 }
 
+.all_content{
+    width: auto;
+    height: auto;
+}
 a {
     color: #000;
     text-decoration: none;
