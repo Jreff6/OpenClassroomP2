@@ -208,7 +208,13 @@ input {
     background-color: white;
     width: 28%;
     box-shadow: 1px 1px 3px grey;
+    transition: transform 0.3s ease;
 }
+
+.card_container:hover {
+    transform: translateX(-3%) translateY(-6%);
+    box-shadow: 2px 2px 5px grey;
+  }
 
 .card_block {
     display: block;
@@ -389,15 +395,6 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-
-/*.footer_wrap{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-
-}
-*/
 
 .subt {
     font-size: 130%;
