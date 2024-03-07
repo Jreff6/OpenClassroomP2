@@ -77,10 +77,12 @@
         justify-content: center;
         width: 50px;
         height: 49px;
-        border-radius: 0 15px 15px 0;
+        border-radius: 15px;
         background-color: #0065fc;
         margin: 0px;
         border: none;
+        box-shadow: 2px 2px 5px grey;
+        margin-left: -10px;
     }
 
     .fa-magnifying-glass {
@@ -109,7 +111,7 @@
         font-size: 11px;
         font-weight: 700;
         margin-bottom: 17px;
-        margin-right: 4px;
+        margin-right: 3px;
     }
 
     #animals {
