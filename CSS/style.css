@@ -180,7 +180,8 @@ input {
 
 .card_group_header {
     margin-left: 40px;
-    margin-top: 42px;
+    margin-top: 26.375px;
+    margin-bottom: 20px;
 }
 
 .group_cards {
@@ -207,7 +208,13 @@ input {
     background-color: white;
     width: 28%;
     box-shadow: 1px 1px 3px grey;
+    transition: transform 0.3s ease;
 }
+
+.card_container:hover {
+    transform: translateX(-3%) translateY(-6%);
+    box-shadow: 2px 2px 5px grey;
+  }
 
 .card_block {
     display: block;
@@ -231,6 +238,7 @@ input {
 .heb_title {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 16px;
 }
 
 .heb_prices {
@@ -270,7 +278,7 @@ input {
 }
 
 .popular_title {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     margin-left: 20px;
     margin-top: 7%;
 }
@@ -359,6 +367,11 @@ input {
 
 }
 
+.act_name{
+    padding-left: 5%;
+    margin-top: 10%;
+}
+
 .act_block img {
     height: 83%;
     width: 100%;
@@ -383,7 +396,6 @@ footer {
     align-items: center;
 }
 
-
 .subt {
     font-size: 130%;
     font-weight: bold;
@@ -396,4 +408,5 @@ footer {
 
 .footer_block li {
     margin-top: 12px;
+    list-style-type: none  ;
 }
