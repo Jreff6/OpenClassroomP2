@@ -351,7 +351,9 @@ input {
 .act_wrappers {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
+    padding-left: 3%;
+
 }
 
 .activity_container{
@@ -403,8 +405,13 @@ footer {
     background-color: #f2f2f2;
     height: 225px;
     width: 97%;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    padding-left: 2%;
+}
+
+.footer_block{
+    margin-right: 21%;
 }
 
 .subt {
